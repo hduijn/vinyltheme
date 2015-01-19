@@ -49,6 +49,7 @@
                         <?php echo $this->getChildHtml('content') ?>
                     </div>
                     <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
+                    <div class="col-left sidebar"><?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('shopinfo')->toHtml(); ?></div>
                 </div>
                 <?php /*<div class="col-right sidebar"><?php echo $this->getChildHtml('right') ?></div>*/ ?>
             <?php /*</div>*/ ?>
